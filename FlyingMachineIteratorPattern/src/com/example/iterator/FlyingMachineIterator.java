@@ -1,8 +1,7 @@
 package com.example.iterator;
 
-import java.util.*;
 
-public class FlyingMachineIterator implements Iterator<FlyingMachine> {
+public class FlyingMachineIterator implements CustomIterator {
 
 	FlyingMachine[] fMachines;
 
